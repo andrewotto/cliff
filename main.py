@@ -90,7 +90,7 @@ for n in range(1, MAX_STEPS+1):
                    pady=4, bd=4, command=command)))
 
 #how often to transition to a step
-transition_sec=((BEATS_PER_MINUTE / SECONDS_PER_MINUTE) / (BEATS_PER_MEASURE * STEPS_PER_MEASURE))
+transition_sec=((BEATS_PER_MINUTE / SECONDS_PER_MINUTE) / (STEPS_PER_MEASURE))
 print("Transition Sec: ", transition_sec)
 
 def loopMe(song):    
